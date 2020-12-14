@@ -1,5 +1,13 @@
 import React from 'react';
 
+import CommentList from './CommentList';
+import CommentBox from './CommentBox';
+
 export default () => {
-  return <div>I am the app component</div>
+  return (
+    <div>
+      <CommentBox />
+      <CommentList />
+    </div>
+  )
 }
